@@ -4,20 +4,43 @@ body {
 
 h1 {
     color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
 }
 
 h2 {
     color: white;
-    font-family: cursive;
-    font-size: 2.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
 }
 
 .container {
     display: flex;
-    flex: 1 1 auto;
+    flex-flow: column wrap;
     border-color: black;
     border-width: 0.5em;
     border-style: solid;
-    height: 400px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.gridSquare {
     background-color: gray;
+    flex: 1 1 auto; 
+    width: 6.25%;
+    height: 6.25%;
+    padding: 0; 
+    margin: 0;
+    border-color: blue; 
+    border-width: 0px;
+    border-style: solid;
+    z-index: 1;
+}
+
+.gridsquare:hover {
+    background-color: pink;
+    z-index: 2;
 }
