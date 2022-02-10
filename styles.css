@@ -39,3 +39,29 @@ h2 {
     border-style: solid;
     z-index: 1;
 }
+
+.gridSquareSmall {
+    background-color: gray;
+    flex: 1 1 auto; 
+    width: 4%;
+    height: 4%;
+    padding: 0; 
+    margin: 0;
+    border-color: rgb(282, 1, 4); 
+    border-width: 0px;
+    border-style: solid;
+    z-index: 1;
+}
+
+.gridSquareRainbow {
+    background-color: gray;
+    flex: 1 1 auto; 
+    width: 4%;
+    height: 4%;
+    padding: 0; 
+    margin: 0;
+    border-color: blue; 
+    border-width: 0px;
+    border-style: solid;
+    z-index: 1;
+}
